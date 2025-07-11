@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Avalie Nosso Atendimento</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<body>
+  <div class="container">
+    <div id="intro-section">
+      <img class="picon-logo" src="./assets/picon.png" alt="Picon logo">
+      <h1>Sua opinião faz toda a diferença! </h1>
+      <p>Olá! 😊 Queremos agradecer sinceramente por ter nos escolhido.</p>
+      <p>Estamos sempre em busca de oferecer o melhor atendimento possível. Por isso, gostaríamos de saber como foi sua experiência conosco.</p>
+      <p>Com apenas um clique, você nos ajuda a melhorar ainda mais!</p>
+    </div>
+
+    <h2>Como você avalia nosso atendimento?</h2>
+    <div style="position:relative; width:fit-content; margin:auto;">
+      <div id="stars-tooltip" class="tooltip">Clique em uma estrela para avaliar!</div>
+      <div class="stars" id="stars">
+        <span data-value="1">★</span>
+        <span data-value="2">★</span>
+        <span data-value="3">★</span>
+        <span data-value="4">★</span>
+        <span data-value="5">★</span>
+      </div>
+
+      <div id="star-desc-tooltip" class="star-desc-tooltip"></div>
+
+
+    <div id="feedback-section" class="hidden">
+      <p>Sentimos muito por não ter atendido às suas expectativas. 😔</p>
+      <p>Você poderia nos contar o que podemos melhorar?</p>
+      <textarea id="feedback" rows="4" placeholder="Sua sugestão é muito valiosa para nós..."></textarea>
+      <button id="send-feedback">Enviar Avaliação</button>
+    </div>
+
+    <div id="thank-you" class="hidden">
+      <h2>✨ Muito obrigado!</h2>
+      <p>Agradecemos por dedicar seu tempo para nos avaliar.</p>
+      <p>Suas palavras nos ajudam a crescer e oferecer um serviço ainda melhor.</p>
+      <p>Volte sempre que precisar. Estaremos prontos para te atender! 💛</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
