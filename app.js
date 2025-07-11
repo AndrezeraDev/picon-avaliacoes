@@ -67,7 +67,7 @@ stars.forEach((star, index) => {
       setTimeout(() => {
         const confirmGoogle = confirm("Ficamos muito felizes com sua avaliação! 🥰\n\nVocê poderia nos avaliar também no Google? Isso nos ajuda demais!\n\nClique em OK para ser redirecionado.");
         if (confirmGoogle) {
-          window.open("https://www.google.com/search?q=picon+corretora+de+seguros&oq=&gs_lcrp=EgZjaHJvbWUqBggBEEUYOzIGCAAQRRg5MgYIARBFGDsyBwgCEAAYgAQyCAgDEAAYFhgeMgcIBBAAGO8FMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMjMwN2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8&lqi=ChpwaWNvbiBjb3JyZXRvcmEgZGUgc2VndXJvc0iDgK2q6YCAgAhaKhAAEAEQAhADGAAYARgDIhpwaWNvbiBjb3JyZXRvcmEgZGUgc2VndXJvc5IBEGluc3VyYW5jZV9hZ2VuY3mqAU0KCC9tLzAzeGtzEAEyHxABIhuE30WpG-AWRegC4swt6u9J0baLEM81Dzdv0DAyHhACIhpwaWNvbiBjb3JyZXRvcmEgZGUgc2VndXJvcw#lkt=LocalPoiReviews&rlimm=7616347167602505725&lrd=0x94bc1e623cdacae9:0x69b2b36552fff7fd,3,,,,", "_blank"); // Substitua pelo seu link
+          window.open("https://www.google.com/gasearch?q=picon%20corretora%20de%20seguros&source=sh/x/gs/m2/5#vhid=43:/g/1vbnqj03&vssid=reviews-collection-viewer-reviews-fact-entrypoint&lkt=LocalPoiReviews&rlimm=7616347167602505725&lrd=0x94bc1e623cdacae9:0x69b2b36552fff7fd,3,,,,", "_blank"); 
         }
       }, 600);
     } else {
